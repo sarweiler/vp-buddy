@@ -51,6 +51,7 @@ Mini jack patch cables are readily available (at your favorite euro rack synthes
 
 I'm not an electronics expert, just self taught. Build and use VP Buddy at your own risk.
 
+
 ## License
 
 This work is licensed under [CC-BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0/).
