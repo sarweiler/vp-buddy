@@ -30,9 +30,9 @@ Mini jack patch cables are readily available (at your favorite euro rack synthes
 ### PCBs
 
 - Get the gerber file zips for the bottom PCB and the top PCB.
--- [bottom PCB](https://github.com/sarweiler/jamloopy-ctrl/releases/latest/download/jamloopy-ctrl-gerbe
+ - [bottom PCB](https://github.com/sarweiler/jamloopy-ctrl/releases/latest/download/jamloopy-ctrl-gerbe
 rs.zip)
--- [top PCB](https://github.com/sarweiler/jamloopy-ctrl/releases/latest/download/jamloopy-ctrl-gerbe
+ - [top PCB](https://github.com/sarweiler/jamloopy-ctrl/releases/latest/download/jamloopy-ctrl-gerbe
 rs.zip)
 - Upload the zipped files to a PCB manufacturer of your choice and order the PCBs. Default settings should be okay.
 
