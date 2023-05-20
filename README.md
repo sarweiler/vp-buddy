@@ -2,29 +2,30 @@
 
 ![VP Buddy](images/vp_buddy_unpatched.jpg)
 
-VP Buddy is a simple video patch bay for patching composite video sources to different destinations. Patching is done via mini jack. There is no normalization for the connections, so what you patch is what you get. It is a passive device, so no need for a power supply. It just connects input and output jacks together, nothing more.
+VP Buddy is a simple video patch bay for patching composite video sources to different destinations. Patching is done via mini jack. There is no normalling for the connections, so what you patch is what you get. It's a passive device, so no need for a power supply. It just connects input and output jacks together, nothing more.
 
 ## Yes, but why?
 
-I make [video art](https://rauschfeld.com) with a bunch of old analog video devices, some of them circuit bent and they mainly use composite video with RCA jacks. I kept forgetting what was connected where and when I saw [a video by All My Friends Are Synths](https://www.youtube.com/watch?v=RH4UdIBQ26o) about a mini jack desktop patch bay that he used with RCA adapters to patch his video devices, I wanted to make a dedicated video patch bay without the need for adapters. Of course, VP Buddy isn't as fancy as the [DF Audio Minibay](https://www.dfaudio.com.au/home) that is shown in the video, but it does the job in helping my forgetful brain to see what is going on in my video patch.
-
-## How to patch
-
-Every top RCA jack is connected to the top mini jack in the corresponding column, every bottom RCA jack is connected the bottom mini jack in the corresponding column. Use this however you like. I have patched all outputs (source) of my devices to the top RCA rows and all inputs (destination) of my devices to the bottom RCA rows. You can use the white field at the bottom to indicate what is connected.
-
-![VP Buddy](images/vp_buddy_patched.jpg)
+I make [video art](https://rauschfeld.com) with a bunch of old analog video devices, some of them circuit bent and they mainly use composite video with RCA jacks. I keep forgetting what is connected where and when I saw [a video by All My Friends Are Synths](https://www.youtube.com/watch?v=RH4UdIBQ26o) about a mini jack desktop patch bay that he used with RCA adapters to patch his video devices, I wanted to make a dedicated video patch bay without the need for adapters. Of course, VP Buddy isn't as fancy as the [DF Audio Minibay](https://www.dfaudio.com.au/home) that is shown in the video, but it does the job in helping my forgetful brain see what is going on in my video patch.
 
 ## Why mini jack?
 
 Mini jack patch cables are readily available (at your favorite euro rack synthesizer shop, for example) and come in different lengths and colors. They are easier to handle than the often very long RCA cables.
 
-## Building VP Buddy
+## How to patch
+
+Every top RCA jack is connected to the top mini jack in the corresponding column, every bottom RCA jack is connected the bottom mini jack in the corresponding column. Use this however you like. I have patched all outputs of my devices to the top RCA rows and all inputs of my devices to the bottom RCA rows. You can use the white field at the bottom to indicate what is connected.
+
+![VP Buddy](images/vp_buddy_patched.jpg)
+
+
+## Building
 
 ### BOM
 
 - [24 RCA jacks (CUI Devices RCJ-24)](https://www.mouser.com/ProductDetail/490-RCJ-024) (RCJ-21 to RCJ-27 will all work, they're just different colors. Mix and match however you like – RCJ-24 is the classic "video yellow".)
 - [24 Thonkiconn jack sockets and 24 nuts](https://www.thonk.co.uk/shop/thonkiconn/)
-- For more stability: standoff screws with a height of 10mm
+- For more stability: 10mm standoff screws
 - 4 rubber feet
 
 ### PCBs
@@ -32,7 +33,7 @@ Mini jack patch cables are readily available (at your favorite euro rack synthes
 - Get the gerber file zips for the bottom PCB and the top PCB.
   - [bottom PCB](https://github.com/sarweiler/vp-buddy/releases/latest/download/gerbers_vp_buddy_bottom.zip)
   - [top PCB](https://github.com/sarweiler/vp-buddy/releases/latest/download/gerbers_vp_buddy_top.zip)
-- Upload the zipped files to a PCB manufacturer of your choice and order the PCBs. Default settings should be okay.
+- Upload the zipped files to a PCB manufacturer of your choice, choose a color for the solder mask, and order the PCBs. Default settings should be fine.
 
 ### Soldering
 
