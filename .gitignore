@@ -1,0 +1,5 @@
+*.zip
+*.bak
+fp-info-cache
+fp-lib-table
+.kicad_pcb_bak
