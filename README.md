@@ -6,7 +6,7 @@ VP Buddy is a simple video patch bay for patching composite video sources to dif
 
 ## Yes, but why?
 
-I make [video art](https://rauschfeld.com) with a bunch of old analog video devices, some of them circuit bent and they mainly use composite video with RCA jacks. I keep forgetting what is connected where and when I saw [a video by All My Friends Are Synths](https://www.youtube.com/watch?v=RH4UdIBQ26o) about a mini jack desktop patch bay that he used with RCA adapters to patch his video devices, I wanted to make a dedicated video patch bay without the need for adapters. Of course, VP Buddy isn't as fancy as the [DF Audio Minibay](https://www.dfaudio.com.au/home) that is shown in the video, but it does the job in helping my forgetful brain see what is going on in my video patch.
+I make [video art](https://rauschfeld.com) with a bunch of old analog video devices, some of them circuit bent, and they mainly use composite video with RCA jacks. I keep forgetting what is connected where and when I saw [a video by All My Friends Are Synths](https://www.youtube.com/watch?v=RH4UdIBQ26o) about a mini jack desktop patch bay that he used with RCA adapters to patch his video devices, I wanted to make a dedicated video patch bay without the need for adapters. Of course, VP Buddy isn't as fancy as the [DF Audio Minibay](https://www.dfaudio.com.au/home) that is shown in the video, but it does the job in helping my forgetful brain see what is going on in my video patch.
 
 ## Why mini jack?
 
@@ -30,7 +30,7 @@ Every top RCA jack is connected to the top mini jack in the corresponding column
 
 ### PCBs
 
-- Get the gerber file zips for the bottom PCB and the top PCB.
+- Get the gerber zips for the bottom PCB and the top PCB.
   - [bottom PCB](https://github.com/sarweiler/vp-buddy/releases/latest/download/gerbers_vp_buddy_bottom.zip)
   - [top PCB](https://github.com/sarweiler/vp-buddy/releases/latest/download/gerbers_vp_buddy_top.zip)
 - Upload the zipped files to a PCB manufacturer of your choice, choose a color for the solder mask, and order the PCBs. Default settings should be fine.
